@@ -1,0 +1,10 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data / output
+Model/
+Output/
+
+# Python
+__pycache__/
+*.pyc
