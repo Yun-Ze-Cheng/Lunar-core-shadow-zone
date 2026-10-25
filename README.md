@@ -5,7 +5,7 @@ Please find more details in the paper below:
 Yun-Ze Cheng and Hrvoje Tkalčić (202*), Large lunar core constrained by S-wave shadow zone onsets from Apollo data, 
 Nature Communications, *****.
 
-We also provided the synthetics. Synthetic seismograms are computed using Yspec (1), in the frequency band 0.001–0.5 Hz. The source mechanism simulates tidal forces by placing the source at a horizontal fault plane at 900 km (2, 3) using similar moment magnitude (~3, 10e13 Nm, 4). Stations are placed along the equator with an inter-station distance of 1˚ for the end-member models with multi-layering attenuation factors for P and S from previous seismic data analysis (3, 4) to deep moonquake M2 (5), LCM, M3 (5), and W11 (6). The waveforms of N-component could be treated as Transverse-component based on the setting.
+We also provided the synthetics. 1-hour synthetic seismograms are computed using Yspec (1), in the frequency band 0.001–0.5 Hz. The source mechanism simulates tidal forces by placing the source on a horizontal fault plane at 900 km (2, 3) with a similar moment magnitude (~3, 10e13 Nm, 4). Stations are placed along the equator with an inter-station distance of 1˚ for the end-member models with multi-layering attenuation factors for P and S from previous seismic data analysis (3, 4) to deep moonquake M2 (5), LCM, M3 (5), and W11 (6). The waveforms of the N-component could be treated as Transverse-component based on the setting.
 
 1. Al-Attar, D. & Woodhouse, J. H. Calculation of seismic displacement fields in self-gravitating earth models—applications of minors vectors and symplectic structure. Geophys. J. Int. 175, 1176–1208, 2008.
 2. Wang, Y., Takenaka, H., Jiang, X. & Lei, J. Modelling two-dimensional global seismic wave propagation in a laterally heterogeneous whole-Moon model. Geophys. J. Int. 192, 1271–1287 (2013).
@@ -24,5 +24,3 @@ Authors are from the Research School of Earth Sciences, The Australian National 
 3. You could simply run (./run.sh)
 
 4. The output will be generated in the directory called "Output", including the model file and figures.
-
-5. The output on your terminal will be...
